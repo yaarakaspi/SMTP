@@ -2,6 +2,7 @@ import smtplib
 from email.message import EmailMessage
 from smtplib import SMTP
 
+
 msg = EmailMessage()
 sender = input("enter sender's mail address: ")
 password = input("enter sender's password: ")
